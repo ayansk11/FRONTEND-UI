@@ -1,7 +1,7 @@
 import socket
 
-host = "127.0.0.1"
-port = 500
+host = socket.gethostname()
+port = 5000
 
 client_socket = socket.socket()
 client_socket.connect((host, port))
