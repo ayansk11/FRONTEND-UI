@@ -1,3 +1,5 @@
+//TO CONVERT TWO DIGIT PACKED BCD TO UNPACKED BCD
+
 dosseg
 .model small
 .stack 100h
