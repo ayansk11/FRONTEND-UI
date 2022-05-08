@@ -1,3 +1,5 @@
+//TO WRITE AN ALP TO FIND WEATHER GIVEN NUMBER IS  ODD OR EVEN
+
 dosseg
 .model small
 .stack 100h
