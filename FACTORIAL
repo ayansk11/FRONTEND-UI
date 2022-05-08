@@ -1,3 +1,5 @@
+//To write an ALP to find Factorial of a given number
+
 dosseg
 .MODEL SMALL 
 .DATA 
