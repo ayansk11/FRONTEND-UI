@@ -1,3 +1,5 @@
+//TO PROGRAM TO INTERCHANGE A BLOCK OF DATA
+
 dosseg
 .model small
 .stack 100h
