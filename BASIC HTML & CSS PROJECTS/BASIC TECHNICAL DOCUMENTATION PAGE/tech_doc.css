@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+body {
+
+    font-family: 'nunito';
+    color: white;
+    background-color: black;
+    line-height: 1.4;
+    width: 100%;
+}
+
+
+#background {
+
+    position: absolute; 
+    width: 100%; 
+    height: auto; 
+
+    left: 300px; 
+    top: 0px; 
+    z-index: -1; 
+}
+
+
+.background_stretch {
+
+    width: 100%;
+    height: auto;
+    opacity: 0.75;
+}
+
+
+#background_right {
+
+    position: absolute; 
+    width: 100%; 
+    height: auto; 
+
+    left: 600px; 
+    top: 885px; 
+    z-index: -1; 
+}
+
+
+.background_right_stretch {
+
+    width:75%;
+    height:auto;
+    opacity: 0.75;
+}
+
+
+#AS_logo {
+
+    position: fixed;
+    height: auto;
+    min-width: 300px;
+    width: 300px;
+    
+    top: 10px;
+    left: 0px;
+    
+    z-index: 4;
+}  
+
+
+.header_text {
+
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-gap: 50px;
+    
+    width: 100%;
+    height: auto;
+    
+    position: absolute;
+    top: 18vw;
+    left: 0vw;
+    z-index: 2;
+}
+
+
+.header_title {
+
+    grid-column: 1;
+    grid-row: 1;
+    
+    text-align: right;  
+    font-size: 20px;
+    color: silver;  
+    
+    z-index: 2;
+}  
+
+
+.header_quote {
+
+    grid-column: 2;
+    grid-row: 1;
+    
+    font-size: 15px; 
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    z-index: 2;
+}  
+
+
+
+
+#navbar {
+
+    position: fixed;
+    height: 100%;
+    min-width: 300px;
+    width: 300px;
+
+    top: 0px;
+    left: 0px;
+    color: black;
+    background-color: white;
+    padding: 75px 0px;
+    z-index: 3;
+}
+
+
+#navbar header {
+
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+
+#navbar li {
+
+    list-style: none;
+    padding: 5px 0px;
+    position: relative;
+    width: 100%;
+}
+
+
+#navbar a {
+
+    color: gray;
+    text-decoration: none;
+}
+
+
+#navbar a:hover{ 
+
+    color: black;
+    text-decoration: underline;
+}
+
+
+#main-doc {
+
+    position: absolute;
+    
+    top: 30vw;
+    margin-left: 310px;
+    
+    padding: 20px;
+}
+
+
+Section {
+
+    background: rgb(230, 255, 255, 0.1);
+    padding: 2.5rem 2.5rem;
+    border-radius: 2rem;
+    width: 500px;
+    margin: auto; 
+}
+
+
+Section header {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 20px;
+}
+
+
+.Social_End {
+
+    border-radius: 1rem;
+    opacity: 0.8; 
+    padding-right: 50px;
+}
+
+
+
+@media (max-width: 800px)  {
+  /* For mobile phones: */
+
+    #AS_logo {
+
+        position: absolute;
+        min-width: 120px;
+        width: 120px;
+        height: auto;   
+        top: 0px;
+        left: 0px;  
+        top: 10px;
+        left: 0px;  
+        z-index: 1;
+    }  
+
+
+    #navbar {
+
+        position: absolute;
+        height: 1300px;
+        min-width: 120px;
+        width: 120px;
+        font-size: 3vw;
+
+        top: 0px;
+        margin-top: 35px; 
+        left: 0px;
+
+        color: black;
+        background-color: white;
+        padding: 0px 0px;
+        z-index: 1;
+    }
+   
+
+    #navbar header {
+
+        font-size: 4vw; 
+    }
+
+
+    .header_text {
+
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-gap: 50px;
+        grid-auto-rows: minmax(100px, auto);
+        
+        width: 100%;
+        height: auto;
+        
+        position: absolute;
+        top: 18vw;
+        left: 120px;
+        z-index: 2;
+    }
+
+    .header_title {
+
+        font-size: 2vw;
+    }
+
+
+    .header_quote {
+
+        font-size: 1vw;
+    }
+
+    #background {
+
+        position: absolute; 
+        width: 100%; 
+        height: auto; 
+        left: 120px; 
+        top: 0px; 
+        z-index: -1; 
+    }
+
+    #main-doc {
+
+        position: absolute;
+        
+        top: 35vw;
+        margin-left: 120px;
+        padding: 20px;
+    }
+
+
+    Section {
+
+        background: rgb(230, 255, 255, 0.1);
+        padding: 2.5rem 2.5rem;
+        border-radius: 2rem;
+        width: 200px;
+        margin: auto; 
+        font-size: 8px;
+    }
+
+
+    Section header {
+
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 10px;
+        letter-spacing: 20px;
+    }
+
+
+    .Social_End {
+
+        border-radius: 1rem;
+        opacity: 0.8; 
+        width: 90%;
+    }
+
+
+    #background_right {
+
+        position: absolute; 
+        width: 100%; 
+        height: auto; 
+
+        left: 140px; 
+        top: 385px; 
+        z-index: -1;
+    }
+    
+}
