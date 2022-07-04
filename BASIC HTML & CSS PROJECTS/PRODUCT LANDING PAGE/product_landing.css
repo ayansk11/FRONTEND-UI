@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+body {
+
+    font-family: 'nunito';
+    color: white;
+    background-color: black;
+    line-height: 1.4;
+    width: 100%;
+    font-size: 1vw;
+}
+
+#background {
+
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    opacity: 0.2;
+    z-index: -1; 
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+h1 {
+  font-size: 1.4vw;
+  color: white;
+}
+
+h2 {
+  font-size: 2vw;
+  color: white;
+}
+
+h3 {
+  font-size: 3vw;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{ 
+  text-decoration: underline;
+  filter: brightness(150%);
+  filter: drop-shadow(8px 8px 10px white);
+}
+
+
+header {
+
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    height: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    opacity: 0.9;
+    
+    z-index:5;
+}
+
+
+#shop {
+  margin-left: 13%;
+  margin-top: -30%;
+  display: flex; 
+  justify-content: space-between;
+  width: 75%;
+}
+
+
+#portfolio {
+
+    margin-left: 15%;
+    margin-top: 45%;
+    display: flex; 
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+#github-logo {
+
+    width: 100%; 
+    height: auto;
+    overflow: hidden;
+}
+
+#github-logo:hover {
+
+    filter: brightness(150%);
+    filter: drop-shadow(8px 8px 10px white);
+}
+
+
+#youtube-logo {
+
+    width: 100%; 
+    height: auto; 
+    overflow: hidden; 
+}
+
+
+#youtube-logo:hover {
+
+    filter: brightness(150%);
+    filter: drop-shadow(8px 8px 10px white);
+}
+
+#AS_header_a:hover {
+
+    filter: brightness(150%);
+    filter: drop-shadow(8px 8px 10px white);
+}
+
+#my_story {
+
+    margin-left: 0;
+    margin-top: 20%;
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+}
+
+#storylayover {
+
+    background-color: black;
+    width: 100%;
+    opacity: 0.9;
+}
+    
+
+.submit { 
+
+    display: block; 
+    width: 51.5%;
+    height: 3vw;
+    margin-top: 0vw;
+    margin-bottom: 1vw;
+    font-size: 1.5vw;
+    
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    background: #00aced;
+    box-shadow:  0 0 5px #00aced,  0 0 8px #00aced;
+    padding: 0;
+    border: none;
+    z-index: 2;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+
+.submit:hover{
+
+    background-color: transparent;
+    color: #00aced;
+    box-shadow: 0 5px 3px -3px #00aced, 0 -5px 3px -3px #00aced, 0 5px 3px -3px #00aced, 0 -5px 3px -3px #00aced;
+}
+
+
+.email {
+    
+    display: block; 
+    width: 50%;
+    height: 2rem;
+    padding: 0.25rem 0.75rem;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+
+.text {
+
+    display: block; 
+    width: 50%;
+    height: 2rem;
+    padding: 0.25rem 0.75rem;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+
+@media (max-width: 800px) {
+    body {
+
+        flex-wrap: wrap;
+    }
+
+    #header-img {
+
+        width: 30vw;
+    }
+
+    .nav-link {
+
+        font-size: 2.5vw; 
+    }
+
+    #video {
+
+        width: 250px;
+        height: auto; 
+    }
+
+    .submit {
+
+        width: 20%;
+        padding: 0.75rem;
+        background: royalblue;
+        color: white;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    .email {
+
+        display: block; 
+        width: 18.5%;
+        height: 2rem;
+        padding: 0.25rem 0.75rem;
+        background-color: #fff;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+    }
+
+    .text {
+
+        display: block; 
+        width: 18.5%;
+        height: 2rem;
+        padding: 0.25rem 0.75rem;
+        background-color: #fff;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+    }
+}
